@@ -26,8 +26,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/likexian/doh-go/dns"
-	"github.com/likexian/doh-go/xhttp"
+	"github.com/501miles/doh-go/dns"
+	"github.com/501miles/doh-go/xhttp"
 	"github.com/likexian/gokit/xip"
 )
 

@@ -37,7 +37,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/likexian/doh-go/xjson"
+	"github.com/501miles/doh-go/xjson"
 	"github.com/likexian/gokit/assert"
 	"github.com/likexian/gokit/xcache"
 	"github.com/likexian/gokit/xfile"

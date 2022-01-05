@@ -230,7 +230,6 @@ func New() (r *Request) {
 	}
 
 	proxyURL := os.Getenv(Socks5Proxy)
-	fmt.Println("Socks5Proxy", proxyURL)
 	if len(proxyURL) > 0 {
 		proxy, _ := url.Parse(proxyURL)
 		client.Transport.(*http.Transport).Proxy = http.ProxyURL(proxy)

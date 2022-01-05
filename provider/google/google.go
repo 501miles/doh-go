@@ -27,7 +27,7 @@ import (
 	"strings"
 
 	"github.com/likexian/doh-go/dns"
-	"github.com/likexian/gokit/xhttp"
+	"github.com/likexian/doh-go/xhttp"
 	"github.com/likexian/gokit/xip"
 )
 
